@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import PrivateRoute from "./components/PrivateRoute";
 import Account from "./pages/Account";
@@ -23,6 +24,7 @@ function App() {
           }
         />
       </Routes>
+      <Footer/>
     </>
   );
 }
